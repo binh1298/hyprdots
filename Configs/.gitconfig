@@ -1,0 +1,29 @@
+[user]
+	name = Pham Duc Binh
+	email = binh1298@gmail.com
+
+[include]
+    path = $HOME/.config/.delta/themes.gitconfig
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true    # use n and N to move between diff sections
+    light = false      # set to true if you're in a terminal w/ a light background color (e.g. the default macOS terminal)
+    line-numbers = true
+    features = woolly-mammoth
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
+[url "https://:x-oauth-basic@github.com/"]
+	insteadOf = git@github.com:
+[url "https://"]
+	insteadOf = git://
+[url "https://:x-oauth-basic@github.com/manabie-com"]
+	insteadOf = https://github.com/manabie-com
+

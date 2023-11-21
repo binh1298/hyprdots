@@ -8,11 +8,34 @@
     "security.workspace.trust.startupPrompt": "never",
     "security.workspace.trust.enabled": false,
     "editor.minimap.side": "left",
-    "editor.fontFamily": "'Maple Mono', 'monospace', monospace",
+    "editor.fontFamily": "CaskaydiaCove Nerd Font Mono",
     "extensions.autoUpdate": false,
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "terminal.external.linuxExec": "kitty",
     "terminal.explorerKind": "both",
     "terminal.sourceControlRepositoriesKind": "both",
-    "telemetry.telemetryLevel": "off"
-}
+    "telemetry.telemetryLevel": "off",
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 1,
+    "editor.lineNumbers": "relative",
+    "vim.useSystemClipboard": true,
+    "git.openRepositoryInParentFolders": "never",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "terminal.integrated.shell.linux": "zsh",
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[xml]": {
+      "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "terminal.integrated.scrollback": 100000
+  }
+  
